@@ -1,0 +1,21 @@
+sdk: "/Library/Ruby/Gems/1.8/gems/rhodes-3.0.2"
+sdkversion: 3.0.1
+name: locateme
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+wmsdk: "Windows Mobile 6 Professional SDK (ARMV4I)"
+applog: rholog.txt
+iphone:
+  configuration: Debug
+  sdk: iphonesimulator4.3
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.locateme
+  BundleURLScheme: locateme
+wp:
+  productid: '6b7fe110-95cb-012e-31e4-002500ee00eb'
+
+extensions: ["json", "another-extension"]
